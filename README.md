@@ -1,225 +1,111 @@
-<div align="center">
-
 # 👋 Hi, I'm Rahul Kumar Verma
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=28&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&random=false&width=900&lines=Artificial+Intelligence+%26+Machine+Learning;Full+Stack+Developer;Competitive+Programmer;Open+Source+Learner;Building+Impactful+Projects" />
-
-<p>
-<img src="https://komarev.com/ghpvc/?username=RahulKuVerma&label=Profile%20Views&color=0e75b6&style=for-the-badge"/>
-<img src="https://img.shields.io/github/followers/RahulKuVerma?style=for-the-badge&logo=github"/>
-<img src="https://img.shields.io/github/stars/RahulKuVerma?style=for-the-badge&logo=github"/>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=30&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=AI+%26+Machine+Learning+Enthusiast;Full+Stack+Developer;Competitive+Programmer;Open+Source+Learner;Building+Technology+That+Matters" />
 </p>
 
-</div>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=RahulKuVerma&label=Profile+Views&style=for-the-badge&color=0e75b6"/>
+  <img src="https://img.shields.io/github/followers/RahulKuVerma?style=for-the-badge"/>
+</p>
 
 ---
 
 # 💫 About Me
 
-<img align="right" alt="Coding" width="360" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif"/>
+<img align="right" width="360" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg">
 
-🎓 B.Tech Computer Science Engineering Student
-
-🤖 Passionate about Artificial Intelligence & Machine Learning
-
-💻 Full Stack Developer
-
-🏆 Competitive Programmer (C++)
-
-📊 Kaggle Competitor
-
-🌱 Currently learning
-
-- Deep Learning
-- Large Language Models (LLMs)
-- MLOps
-- System Design
-
-💡 I enjoy solving real-world problems using Machine Learning and Software Development.
-
-⚡ **Fun Fact:** I believe every great project starts with a simple idea and consistent effort.
+- 🎓 B.Tech CSE Student
+- 🤖 AI & Machine Learning Enthusiast
+- 💻 Full Stack Developer
+- 🏆 Competitive Programmer (C++)
+- 📊 Kaggle Competitor
+- 🌱 Learning LLMs, Deep Learning, MLOps and System Design
+- 🚀 Building real-world AI solutions
 
 ---
 
 # 🚀 Current Focus
 
-- 🔭 Building AI-powered web applications
-- 🤖 Customer Churn Prediction using CatBoost
-- 📰 Fake News Detection using NLP
-- 📈 Participating in Kaggle Competitions
-- 📚 Improving Data Structures & Algorithms
+- Customer Churn Prediction
+- Fake News Detection
+- Kaggle Competitions
+- Data Structures & Algorithms
+- Generative AI
 
 ---
 
 # 🛠 Tech Stack
 
-### 💻 Languages
-
-<p>
-<img src="https://skillicons.dev/icons?i=cpp,python,java,javascript"/>
-</p>
-
-### 🌐 Frontend
-
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,bootstrap"/>
-</p>
-
-### ⚙ Backend
-
-<p>
-<img src="https://skillicons.dev/icons?i=flask"/>
-</p>
-
-### 🤖 Machine Learning
-
-<p>
-
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn"/>
-
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas"/>
-
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy"/>
-
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow"/>
-
-</p>
-
-### 🛠 Tools
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,mysql"/>
+<p align="center">
+<img src="https://skillicons.dev/icons?i=cpp,python,java,javascript,html,css,bootstrap,flask,mysql,git,github,vscode,tensorflow"/>
 </p>
 
 ---
 
 # 🌟 Featured Projects
 
-| Project | Description |
-|----------|-------------|
-| 📰 Fake News Detection AI | NLP-powered fake news detection using Machine Learning and Flask |
-| 🏦 Customer Churn Prediction | End-to-end ML pipeline with CatBoost and feature engineering |
-| 🌱 Carbon Estimator for MSMEs | Carbon footprint estimation platform with API integration |
-| 🎓 Student Performance Prediction | Regression-based prediction system using Machine Learning |
-| ⛏ Mohs Hardness Prediction | Ensemble learning model for materials science prediction |
+- 📰 Fake News Detection AI
+- 🏦 Customer Churn Prediction
+- 🌱 Carbon Estimator for MSMEs
+- 🎓 Student Performance Prediction
+- ⛏ Mohs Hardness Prediction
 
 ---
 
 # 📊 GitHub Analytics
 
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=RahulKuVerma&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RahulKuVerma&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
+<p align="center">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=RahulKuVerma&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RahulKuVerma&layout=compact&theme=tokyonight"/>
+</p>
 
 # 🔥 GitHub Streak
 
-<div align="center">
-
+<p align="center">
 <img src="https://streak-stats.demolab.com?user=RahulKuVerma&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
+</p>
 
 # 📈 Contribution Graph
 
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=RahulKuVerma&theme=tokyo-night&hide_border=true"/>
-
-</div>
-
----
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=RahulKuVerma&bg_color=1a1b27&color=38bdae&line=70a5fd&point=ffffff&area=true&hide_border=true"/>
+</p>
 
 # 🏆 GitHub Trophies
 
-<div align="center">
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=RahulKuVerma&theme=algolia&no-frame=true&column=4"/>
+</p>
 
-<img src="https://github-profile-trophy.vercel.app/?username=RahulKuVerma&theme=tokyonight&column=4&margin-w=15&margin-h=15"/>
+# 🐍 Contribution Snake
 
-</div>
+> After adding the snake GitHub Action, this image will render automatically.
 
----
+```md
+https://raw.githubusercontent.com/RahulKuVerma/RahulKuVerma/output/github-contribution-grid-snake.svg
+```
 
-# 🎯 2026 Goals
+# 🎯 Goals
 
-- ✅ Solve **500+ LeetCode Problems**
-- 🏅 Reach **Kaggle Expert**
-- 🚀 Contribute to Open Source Projects
-- 🤖 Build Production-Ready AI Applications
-- 💼 Secure an AI/ML Internship
-- 📚 Master Deep Learning & MLOps
+- 500+ LeetCode Problems
+- Kaggle Expert
+- Open Source Contributor
+- AI/ML Internship
+- Data Analyst Internship
+- Production-ready AI Projects
 
----
+# 🌐 Connect
 
-# 📚 Currently Exploring
-
-- 🤖 Large Language Models (LLMs)
-- 🧠 Generative AI
-- ⚡ Retrieval-Augmented Generation (RAG)
-- ☁️ Cloud Deployment
-- 📦 Docker & CI/CD
-
----
-
-# 🌐 Coding Profiles
-
-<div align="center">
-
-<a href="https://leetcode.com/YOUR_LEETCODE_USERNAME">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
-</a>
-
-<a href="https://www.kaggle.com/YOUR_KAGGLE_USERNAME">
-<img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
-</a>
-
-</div>
+- GitHub: https://github.com/RahulKuVerma
+- LinkedIn: https://linkedin.com/in/rahul-kumar-verma-8603b6370
+- LeetCode: https://leetcode.com/u/rahul_kumar_verma/
+- Kaggle: https://kaggle.com/rahulkumarverma111
 
 ---
 
-# 🤝 Connect With Me
+> **"Building intelligent solutions, one commit at a time."**
 
-<div align="center">
-
-<a href="https://github.com/RahulKuVerma">
-<img src="https://skillicons.dev/icons?i=github"/>
-</a>
-
-<a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
-</a>
-
-<a href="mailto:your.email@example.com">
-<img src="https://skillicons.dev/icons?i=gmail"/>
-</a>
-
-</div>
-
----
-
-# 💭 Favourite Quote
-
-<div align="center">
-
-### *"The expert in anything was once a beginner who never stopped learning."*
-
-</div>
-
----
-
-<div align="center">
-
-## ⭐ Thank you for visiting my profile!
-
-### If you like my work, consider ⭐ starring my repositories.
-
+<p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C2FF,100:6C63FF&height=120&section=footer"/>
-
-</div>
+</p>
