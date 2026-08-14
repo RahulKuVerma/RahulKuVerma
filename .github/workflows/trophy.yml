@@ -8,6 +8,7 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
 
@@ -22,18 +23,25 @@ jobs:
           output_path: trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publish Trophy
+      - name: Check generated file
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          echo "Files in current directory:"
+          ls -la
+          echo "Checking trophy.svg:"
+          ls -lh trophy.svg
 
+      - name: Copy Trophy to Output Branch
+        run: |
           mkdir -p /tmp/trophy
-          cp trophy.svg /tmp/trophy/
+          cp trophy.svg /tmp/trophy/trophy.svg
 
           git fetch origin output:output
           git checkout output
 
-          cp /tmp/trophy/trophy.svg trophy.svg
+          cp /tmp/trophy/trophy.svg ./trophy.svg
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add trophy.svg
           git commit -m "Update GitHub trophies" || echo "No changes to commit"
