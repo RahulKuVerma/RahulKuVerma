@@ -80,11 +80,13 @@
 
 # 🐍 Contribution Snake
 
-> After adding the snake GitHub Action, this image will render automatically.
-
-```md
-https://raw.githubusercontent.com/RahulKuVerma/RahulKuVerma/output/github-contribution-grid-snake.svg
-```
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RahulKuVerma/RahulKuVerma/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RahulKuVerma/RahulKuVerma/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/RahulKuVerma/RahulKuVerma/output/github-contribution-grid-snake.svg">
+  </picture>
+</p>
 
 # 🎯 Goals
 
