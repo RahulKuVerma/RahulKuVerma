@@ -1,0 +1,40 @@
+name: Generate GitHub Trophies
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 0"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Trophy
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        with:
+          username: RahulKuVerma
+          output_path: trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish Trophy
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          mkdir -p /tmp/trophy
+          cp trophy.svg /tmp/trophy/
+
+          git fetch origin output:output
+          git checkout output
+
+          cp /tmp/trophy/trophy.svg trophy.svg
+
+          git add trophy.svg
+          git commit -m "Update GitHub trophies" || echo "No changes to commit"
+          git push origin output
