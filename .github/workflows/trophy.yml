@@ -20,8 +20,15 @@ jobs:
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: RahulKuVerma
-          output_path: trophy.svg
+          file: trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+          theme: algolia
+          max-cols: 4
+          max-rows: 3
+          margin-width: 15
+          margin-height: 15
+          no-background: true
+          no-frame: true
 
       - name: Check Trophy
         run: |
