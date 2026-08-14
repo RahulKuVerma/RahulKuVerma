@@ -75,7 +75,7 @@
 # 🏆 GitHub Trophies
 
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=RahulKuVerma&theme=algolia&no-frame=true&column=4"/>
+  <img src="https://raw.githubusercontent.com/RahulKuVerma/RahulKuVerma/output/trophy.svg" alt="GitHub Trophies" />
 </p>
 
 # 🐍 Contribution Snake
