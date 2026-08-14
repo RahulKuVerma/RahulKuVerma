@@ -1,0 +1,47 @@
+name: Update GitHub Analytics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub Stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=RahulKuVerma&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true
+          path: profile/github-stats.svg
+          token: ${{ secrets.TROPHY_TOKEN }}
+
+      - name: Generate Top Languages
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=RahulKuVerma&layout=compact&theme=tokyonight
+          path: profile/top-langs.svg
+          token: ${{ secrets.TROPHY_TOKEN }}
+
+      - name: Commit Analytics Cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/*.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update GitHub analytics"
+            git push
+          fi
