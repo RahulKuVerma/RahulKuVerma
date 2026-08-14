@@ -75,7 +75,7 @@
 # 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RahulKuVerma/RahulKuVerma/output/trophy.svg" alt="GitHub Trophies" />
+  <img src="https://raw.githubusercontent.com/RahulKuVerma/RahulKuVerma/main/trophy.svg" alt="GitHub Trophies" />
 </p>
 
 # 🐍 Contribution Snake
