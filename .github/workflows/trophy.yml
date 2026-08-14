@@ -21,7 +21,7 @@ jobs:
         with:
           username: RahulKuVerma
           file: trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TROPHY_TOKEN }}
           theme: algolia
           max-cols: 4
           max-rows: 3
@@ -32,7 +32,7 @@ jobs:
 
       - name: Check Trophy
         run: |
-          echo "Checking generated trophy..."
+          echo "Checking generated trophy.svg..."
           ls -lh trophy.svg
 
       - name: Commit Trophy
@@ -41,5 +41,10 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add trophy.svg
-          git diff --cached --quiet || git commit -m "Update GitHub trophies"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No changes to trophy.svg"
+          else
+            git commit -m "Update GitHub trophies"
+            git push origin main
+          fi
